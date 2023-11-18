@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--id:java类放入spring容器后的名称，即java类进入容器后的唯一标识
+    class：要交给spring容器管理的java类
+    -->
+    <bean id="UserserviceBean" class="org.example.service.impl.userserviceImpl"></bean>
+</beans>
